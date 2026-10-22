@@ -1,0 +1,60 @@
+﻿------------
+Got answer:
+    HEADER:
+	opcode = QUERY, id = 1, rcode = NOERROR
+	header flags:  response, want recursion, recursion avail.
+	questions = 1,  answers = 1,  authority records = 0,  additional = 0
+
+    QUESTIONS:
+	8.8.8.8.in-addr.arpa, type = PTR, class = IN
+    ANSWERS:
+    ->  8.8.8.8.in-addr.arpa
+	name = dns.google
+	ttl = 13516 (3 hours 45 mins 16 secs)
+
+------------
+Server:  dns.google
+Address:  8.8.8.8
+
+------------
+Got answer:
+    HEADER:
+	opcode = QUERY, id = 2, rcode = NOERROR
+	header flags:  response, want recursion, recursion avail.
+	questions = 1,  answers = 2,  authority records = 0,  additional = 0
+
+    QUESTIONS:
+	www.example.com, type = A, class = IN
+    ANSWERS:
+    ->  www.example.com
+	internet address = 172.66.147.243
+	ttl = 241 (4 mins 1 sec)
+    ->  www.example.com
+	internet address = 104.20.23.154
+	ttl = 241 (4 mins 1 sec)
+
+------------
+------------
+Got answer:
+    HEADER:
+	opcode = QUERY, id = 3, rcode = NOERROR
+	header flags:  response, want recursion, recursion avail.
+	questions = 1,  answers = 2,  authority records = 0,  additional = 0
+
+    QUESTIONS:
+	www.example.com, type = AAAA, class = IN
+    ANSWERS:
+    ->  www.example.com
+	AAAA IPv6 address = 2606:4700:10::6814:179a
+	ttl = 241 (4 mins 1 sec)
+    ->  www.example.com
+	AAAA IPv6 address = 2606:4700:10::ac42:93f3
+	ttl = 241 (4 mins 1 sec)
+
+------------
+Name:    www.example.com
+Addresses:  2606:4700:10::6814:179a
+	  2606:4700:10::ac42:93f3
+	  172.66.147.243
+	  104.20.23.154
+

@@ -1,0 +1,99 @@
+﻿=== Task 1: HelloMpi Execution Log ===
+MS-MPI Version: 10.1.12498.52
+Logical Cores: 8
+
+--- 4 Ranks Run 1 ---
+[Unordered] Hello from Rank 0 of 4 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 3 of 4 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 1 of 4 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 2 of 4 on DESKTOP-JJ8CUMQ
+
+--- Ordered Report via Explicit Point-to-Point Messaging ---
+[Ordered]   Rank 0 of 4 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 1 of 4 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 2 of 4 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 3 of 4 on DESKTOP-JJ8CUMQ
+
+--- 4 Ranks Run 2 ---
+[Unordered] Hello from Rank 1 of 4 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 3 of 4 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 0 of 4 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 2 of 4 on DESKTOP-JJ8CUMQ
+
+--- Ordered Report via Explicit Point-to-Point Messaging ---
+[Ordered]   Rank 0 of 4 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 1 of 4 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 2 of 4 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 3 of 4 on DESKTOP-JJ8CUMQ
+
+--- 6 Ranks Run 1 ---
+[Unordered] Hello from Rank 4 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 0 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 5 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 1 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 3 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 2 of 6 on DESKTOP-JJ8CUMQ
+
+--- Ordered Report via Explicit Point-to-Point Messaging ---
+[Ordered]   Rank 0 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 1 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 2 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 3 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 4 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 5 of 6 on DESKTOP-JJ8CUMQ
+
+--- 6 Ranks Run 2 ---
+[Unordered] Hello from Rank 5 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 3 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 1 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 0 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 4 of 6 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 2 of 6 on DESKTOP-JJ8CUMQ
+
+--- Ordered Report via Explicit Point-to-Point Messaging ---
+[Ordered]   Rank 0 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 1 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 2 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 3 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 4 of 6 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 5 of 6 on DESKTOP-JJ8CUMQ
+
+--- 8 Ranks Run 1 ---
+[Unordered] Hello from Rank 2 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 4 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 6 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 7 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 5 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 3 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 1 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 0 of 8 on DESKTOP-JJ8CUMQ
+
+--- Ordered Report via Explicit Point-to-Point Messaging ---
+[Ordered]   Rank 0 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 1 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 2 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 3 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 4 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 5 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 6 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 7 of 8 on DESKTOP-JJ8CUMQ
+
+--- 8 Ranks Run 2 ---
+[Unordered] Hello from Rank 0 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 3 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 5 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 1 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 7 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 6 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 4 of 8 on DESKTOP-JJ8CUMQ
+[Unordered] Hello from Rank 2 of 8 on DESKTOP-JJ8CUMQ
+
+--- Ordered Report via Explicit Point-to-Point Messaging ---
+[Ordered]   Rank 0 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 1 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 2 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 3 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 4 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 5 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 6 of 8 on DESKTOP-JJ8CUMQ
+[Ordered]   Rank 7 of 8 on DESKTOP-JJ8CUMQ
